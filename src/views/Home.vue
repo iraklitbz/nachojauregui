@@ -120,8 +120,8 @@ export default {
 
     methods: {
       updateDialog(cerrarModal){
-        this.video = '',
-        this.dialog = cerrarModal
+        this.modalData.video = cerrarModal.videoURL,
+        this.dialog = cerrarModal.isClose
       },
       openModal(data){
         this.dialog = true,
@@ -129,10 +129,6 @@ export default {
         this.modalData.smalltitle = data.smalltitle;
         this.modalData.video = data.video;
         this.modalData.text = data.text;
-      },
-      cerrarModal() {
-        this.modalData.video = '';
-        this.dialog = false
       }
      
     }

@@ -55,8 +55,7 @@
   },
    methods: {
       cerrarModal() {
-        this.video = '',
-        this.$emit('cerrarModal', false, this.video );
+        this.$emit('cerrarModal', {isClose: false, videoURL: ''} );
       }
      
     }
