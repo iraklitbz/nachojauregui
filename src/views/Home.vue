@@ -2,7 +2,7 @@
   <div class="home">
     <p v-html="$t('home1_html')"></p>
     <div class="portfolio">
-      <div v-for="item in items" :key="item" @click.stop="openModal(item)" class="box">
+      <div v-for="(item, id) in items" :key="id" @click.stop="openModal(item)" class="box">
           <div class="item-holder">
             <div class="item">
               <div class="overlay-background"></div>
