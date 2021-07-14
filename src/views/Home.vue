@@ -110,6 +110,34 @@ export default {
           img: "https://w4s5h3f6.rocketcdn.me/crate/wp-content/uploads/2017/02/architecture2X.jpg",
           video: "https://www.youtube.com/embed/zoIQofbG5JY",
           text: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text"
+        },
+        { 
+          title: "SAGARDOBUS", 
+          smalltitle: "SPOT 2019",
+          img: "https://w4s5h3f6.rocketcdn.me/crate/wp-content/uploads/2017/02/portrait.jpg",
+          video: "https://www.youtube.com/embed/zoIQofbG5JY",
+          text: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text"
+        },
+        { 
+          title: "SAGARDOBUS", 
+          smalltitle: "SPOT 2019",
+          img: "https://w4s5h3f6.rocketcdn.me/crate/wp-content/uploads/2017/02/girl.jpg",
+          video: "https://www.youtube.com/embed/zoIQofbG5JY",
+          text: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text"
+        },
+        { 
+          title: "SAGARDOBUS", 
+          smalltitle: "SPOT 2019",
+          img: "https://w4s5h3f6.rocketcdn.me/crate/wp-content/uploads/2017/02/sarabande.jpg",
+          video: "https://www.youtube.com/embed/zoIQofbG5JY",
+          text: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text"
+        },
+        { 
+          title: "SAGARDOBUS", 
+          smalltitle: "SPOT 2019",
+          img: "https://w4s5h3f6.rocketcdn.me/crate/wp-content/uploads/2017/02/sarabande.jpg",
+          video: "https://www.youtube.com/embed/zoIQofbG5JY",
+          text: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text"
         }
       ]
       }
@@ -185,20 +213,28 @@ export default {
 .portfolio {
   max-width: 1140px;
   margin: 40px auto 40px auto;
-  display: flex;
-  gap: 30px;
-  flex-wrap: wrap;
-  justify-content: center;
+  column-count: 1;
+  column-gap: 30px;
 
 }
+ @media (min-width: 800px) {
+    .portfolio {
+      column-count: 3;
+    }
+  }
 
 .portfolio .box {
   background-color: #f6f6f6;
-  flex: 0 0 30%; /*grow | shrink | basis */
+ display: grid;
+  grid-template-rows: 1fr auto;
+  margin-bottom: 30px;
+  break-inside: avoid;
 }
 .item-holder {
   position: relative;
   cursor: pointer;
+  grid-row: 1 / -1;
+  grid-column: 1;
 }
 
 .item-holder .item {

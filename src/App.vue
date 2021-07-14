@@ -28,7 +28,13 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  padding: 0 30px;
 }
+ @media (min-width: 800px) {
+    #app {
+      padding: 0px;
+    }
+  }
 h1 {
   font-weight: bold;
   font-size: 50px;
