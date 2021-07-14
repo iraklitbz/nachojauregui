@@ -18,43 +18,15 @@
       </div>
     </div>
     <div data-app class="main-modal">    
-      <v-dialog
-      v-model="dialog"
-      max-width="1140"
-      persistent
-    >
-      <v-card>
-         <v-card-actions class="closeBtn">
-           <span @click="cerrarModal()"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16.192 6.344L11.949 10.586 7.707 6.344 6.293 7.758 10.535 12 6.293 16.242 7.707 17.656 11.949 13.414 16.192 17.656 17.606 16.242 13.364 12 17.606 7.758z"/></svg></span>
-        </v-card-actions>
-        <v-card-title class="text-h5">
-            {{modalData.title}} - {{modalData.smalltitle}}
-        </v-card-title>
-
-        <div class="flex-video">
-          <div class="full-ratio">
-           <div class="loading">
-               <svg xmlns="http://www.w3.org/2000/svg" width="150px" height="150px" viewBox="0 0 100 85">
-                  <circle cx="30" cy="50" fill="#333">
-                    <animate attributeName="r" values="0;5;0" dur="1.2s" repeatCount="indefinite"/>
-                  </circle>
-                  <circle cx="50" cy="50" fill="#333">
-                    <animate attributeName="r" values="0;5;0" dur="1.2s" begin="0.4s" repeatCount="indefinite"/>
-                  </circle>
-                  <circle cx="70" cy="50" fill="#333">
-                    <animate attributeName="r" values="0;5;0" dur="1.2s" begin="0.8s" repeatCount="indefinite"/>
-                  </circle>
-                </svg>
-            </div>
-            <iframe :src="modalData.video"  frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-          </div>
-          <p>{{modalData.text}}</p>
-        </div>
-
-
-       
-      </v-card>
-    </v-dialog>
+      <Modal 
+        :title="modalData.title" 
+        :smalltitle="modalData.smalltitle" 
+        :video="modalData.video" 
+        :text="modalData.text"
+        :dialog="dialog"
+        v-on:cerrarModal="updateDialog($event)"
+  
+      />
     </div>
 
     
@@ -63,12 +35,15 @@
 
 <script>
 // @ is an alias to /src
-
+import Modal from './../components/Modal.vue'
 export default {
   name: 'Home',
+  components:{
+    Modal
+  },
 
   data () {
-      return {
+      return { 
         dialog: false,
         modalData: {
           title: '',
@@ -144,8 +119,12 @@ export default {
     },
 
     methods: {
+      updateDialog(cerrarModal){
+        this.video = '',
+        this.dialog = cerrarModal
+      },
       openModal(data){
-        this.dialog = true;
+        this.dialog = true,
         this.modalData.title = data.title;
         this.modalData.smalltitle = data.smalltitle;
         this.modalData.video = data.video;
