@@ -31,7 +31,9 @@
                 </div>
               </div>
             </div>
-            <img :src="item.img" alt="" >
+            <div class="around-img">
+              <img :src="item.img" alt="" >
+            </div>
           </div>
       </div>
     </div>
@@ -82,104 +84,104 @@ export default {
         items: [
         { title: "OLIVELEAKS",
           smalltitle: "TASTE THE TRUTH",
-          img: "https://w4s5h3f6.rocketcdn.me/crate/wp-content/uploads/2017/02/pug.jpg", 
+          img: "https://nachojauregui.com/new/img/OLIVELEAKS.png", 
           video: "https://www.youtube.com/embed/987RSqK46k0",
           cargo: "DIRECCIÓN DE FOTOGRAFÍA, EDITOR, COLORISTA",
           productora: "LA CAÑA BROTHERS",
           agencia: "DDB ESPAÑA",
           cliente: "OLIVE OILS FROM SPAIN",
-          text: "Rodado como un documental periodístico, este mockumentary para DDB España y OLIVE OILS FROM SPAIN, junto con otras 5 piezas, denuncia el hecho de que aún no se sepa de dónde procede el mejor aceite de oliva virgen extra del mundo a los EE.UU. Galardonado con el Premio Bronce en INTEGRATED de los BEST AWARDS 2019."
+          text: this.$t('modal1_html')
         },
         { 
-          title: "DOCUMENTAL", 
-          smalltitle: "LO QUE DE VERDAD IMPORTA",
-          img: "https://w4s5h3f6.rocketcdn.me/crate/wp-content/uploads/2017/02/crate-logo.jpg",
+          title: "LO QUE DE VERDAD IMPORTA", 
+          smalltitle: "DOCUMENTAL",
+          img: "https://nachojauregui.com/new/img/LQDVI.png",
           video: "https://www.dailymotion.com/embed/video/x81a0x4",
           cargo: "DIRECCIÓN, REALIZACIÓN",
           productora: "LA CAÑA BROTHERS",
           cliente: "MOVISTAR +",
-          text: "La fundación ''Lo que de verdad importa'' tiene como objetivo difundir valores humanos universales a la sociedad. A través de los testimonios de sus colaboradores y personajes relevantes conocemos su historia y futuro. Disponible en Movistar +."
+          text: this.$t('modal7_html')
         },
         { 
-          title: "SAGARDOBUS", 
-          smalltitle: "IGO NAHI?",
-          img: "https://w4s5h3f6.rocketcdn.me/crate/wp-content/uploads/2017/02/dress.jpg",
+          title: "'IGO NAHI?' SPOT", 
+          smalltitle: "SAGARDOBUS",
+          img: "https://nachojauregui.com/new/img/SAGARDOBUS.png",
           video: "https://www.youtube.com/embed/zoIQofbG5JY",
           cargo: "DIRECCIÓN, REALIZACIÓN, EDICIÓN",
           cliente: "SAGARDOBUS",
-          text: "Este spot de Sagardobus es un guiño a lo que somos, hemos sido y que queremos ser. Un texto inspirado en el último y célebre discurso de Eva Perón, evocando al amor de un pueblo hacia su tierra."
+          text: this.$t('modal8_html')
         },
         { 
           title: "ABANDERADOS DEL ESFUERZO", 
-          smalltitle: "",
-          img: "https://w4s5h3f6.rocketcdn.me/crate/wp-content/uploads/2017/02/girl.jpg",
+          smalltitle: "DOCUMENTAL",
+          img: "https://nachojauregui.com/new/img/ADE.png",
           video: "https://www.youtube.com/embed/JbVzOcpBnNw",
           cargo: "REALIZADOR, EDITOR",
           productora: "LA CAÑA BROTHERS",
           agencia: "AFTERSHARE.TV",
           agenciaURL: "https://aftershare.tv/es/",
           cliente: "FUNDACIÓN TRINIDAD ALFONSO",
-          text: "Varios deportistas del FER soñaban con disputar los Juegos Olímpicos en 2020, pero sus metas se vieron truncadas por el COVID-19. Este documental resume sus entrenamientos antes, durante y después del confinamiento; y de cómo adaptarse a las dificultades es parte de su filosofía de vida. Disponible en Prime Video y YouTube."
+          text: this.$t('modal6_html')
         },
         { 
           title: "#PRIMERO", 
           smalltitle: "LA SERIE",
-          img: "https://w4s5h3f6.rocketcdn.me/crate/wp-content/uploads/2017/02/architecture2X.jpg",
+          img: "https://nachojauregui.com/new/img/PRIMERO.png",
           video: "https://www.youtube.com/embed/k-PME6zJfaY",
           cargo: "DIRECCIÓN, REALIZACIÓN",
           productora: "ALBIÑANA FILMS",
           agencia: "MANIFIESTO",
           cliente: "CEU UNIVERSITIES",
-          text: "#PRIMERO trata sobre la amistad entre Irene, Laura y Dani, tres amigos que se separan para vivir una experiencia que les cambiará la vida para siempre: su primer año de universidad. Tras seis meses de trabajo, esta serie de 10 capítulos es una estrategia multiplataforma de branded content para CEU Universities que trata de empatizar con la generación Z y sus vivencias personales. Disponible en YouTube."
+          text: this.$t('modal3_html')
         },
         { 
           title: "SENDEROS", 
           smalltitle: "CON PEPE MEDIAVILLA (CORTOMETRAJE)",
-          img: "https://w4s5h3f6.rocketcdn.me/crate/wp-content/uploads/2017/02/portrait.jpg",
+          img: "https://nachojauregui.com/new/img/senderos.png",
           video: "https://www.youtube.com/embed/zyo9Nuxl1mQ",
-          cargo: "REALIZACIÓN, EDICIÓN",
-          text: "SENDEROS es una despedida a una de las mejores voces del doblaje en habla hispana, Pepe Mediavilla. Hace un par de años conté con su maravillosa voz (y persona) en un proyecto, y cuando me enteré de su fallecimiento quise despedirme de la mejor manera posible honrando su memoria. Este cortometraje mezcla espectaculares imágenes de Jordania, con una magistral narración de Pepe y una genial banda sonora de Philip Cuccias, Hammock y Chris Coleman."
+          cargo: "DIRECTOR, DP y EDITOR",
+         text: this.$t('modal9_html')
         },
         
         { 
-          title: "EASTPAK", 
-          smalltitle: "#HANDSFREELIVING",
-          img: "https://w4s5h3f6.rocketcdn.me/crate/wp-content/uploads/2017/02/girl.jpg",
+          title: "#HANDSFREELIVING", 
+          smalltitle: "EASTPAK",
+          img: "https://nachojauregui.com/new/img/MFNY.png",
           video: "https://player.vimeo.com/video/277648030",
           cargo: "DIRECCIÓN, DP, EDICIÓN",
           productora: "LA CAÑA BROTHERS",
           agencia: "VF CORPORATION INTERNATIONAL",
           cliente: "EASTPAK WORLDWIDE",
-          text: "La creación de contenido digital es un punto fuerte de la famosa marca belga, la cual depositó su confianza en un grupo de creadores para que representáramos su branding desde la ciudad que nunca duerme: Nueva York. Con el hashtag #handsfreeliving, representamos la filosofía Eastpak desde retratos en Williamsburg hasta spots al ritmo del andén. Todo ello enfocado para branded content en redes sociales."
+           text: this.$t('modal10_html')
         },
         { 
           title: "'HELMETS'", 
           smalltitle: "CON MARC MÁRQUEZ",
-          img: "https://w4s5h3f6.rocketcdn.me/crate/wp-content/uploads/2017/02/sarabande.jpg",
+          img: "https://nachojauregui.com/new/img/HELMETS.png",
           video: "https://www.redbull.com/embed/rrn:content:videos:9fe52f84-c87b-4f4e-bacc-679f0f5b04e1:es-ES",
           cargo: "EDITOR",
           productora: "LA CAÑA BROTHERS",
           cliente: "RED BULL ESPAÑA",
-          text: "El casco es la seña de identidad de los pilotos a bordo de sus motos. Marc Márquez repasa qué significa para él cada uno de los diseños más icónicos que ha tenido en los últimos cinco años: cómo se gestó la idea, qué representa para él y qué aspecto de su personalidad resalta. Disponible en Red Bull TV."
+          text: this.$t('modal2_html')
         },
         { 
           title: "#MEJORCONECTADOS", 
-          smalltitle: "",
-          img: "https://w4s5h3f6.rocketcdn.me/crate/wp-content/uploads/2017/02/sarabande.jpg",
+          smalltitle: "BRANDED CONTENT",
+          img: "https://nachojauregui.com/new/img/SISHEIDO.png",
           video: "https://www.youtube.com/embed/ad5LxaQ4PNQ",
           cargo: "REALIZACIÓN, EDICIÓN",
           productora: "LA CAÑA BROTHERS",
           cliente: "TELEFÓNICA",
-          text: "'#MEJORCONECTADOS' es la última campaña de Telefónica que trata de visibilizar el talento nacional a través de historias únicas de deportistas, científicos, historiadores...de personas que sean capaces de transmitir un mensaje intergeneracional. Toda la campaña completa en <a target='_blank' href='https://mejorconectados.com'>https://mejorconectados.com.</a>"
+          text: this.$t('modal5_html')
         },
         { 
           title: "LAST LIGHT", 
-          smalltitle: "",
-          img: "https://w4s5h3f6.rocketcdn.me/crate/wp-content/uploads/2017/02/sarabande.jpg",
+          smalltitle: "FURIA IN MOTION",
+          img: "https://nachojauregui.com/new/img/FURIA.png",
           video: "https://player.vimeo.com/video/513394340",
           cargo: "DIRECCIÓN, DP, EDICIÓN",
           cliente: "FURIA",
-          text: "'FURIA' es una marca de ropa orgánica comprometida con el medio ambiente, con diseños exclusivos de temáticas mitológicas, históricas y naturales. A través de LAST LIGHT, tratamos de transmitir su natulareza unisex a través de un baile sentido y fluido."
+          text: this.$t('modal4_html')
         }
       ]
       }
@@ -210,6 +212,12 @@ export default {
 </script>
 
 <style>
+
+.around-img {
+  height: 100%;
+}
+
+
 
 .hero-video {
   max-width: 1140px;
@@ -249,28 +257,38 @@ export default {
 .portfolio {
   max-width: 1140px;
   margin: 40px auto 40px auto;
-  column-count: 1;
-  column-gap: 30px;
+
 
 }
  @media (min-width: 800px) {
     .portfolio {
-      column-count: 3;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
   }
 
 .portfolio .box {
   background-color: #f6f6f6;
- display: grid;
-  grid-template-rows: 1fr auto;
+  width: 100%;
   margin-bottom: 30px;
-  break-inside: avoid;
 }
+@media (min-width: 800px) {
+   .portfolio .box {
+    background-color: #f6f6f6;
+    width: calc(25.65% - 30px);
+    }
+    .portfolio .box:not(:nth-child(4n)) {
+    margin-right: 30px;
+    }
+     .portfolio .box:last-child {
+      margin-right: 0px;
+    }
+  }
 .item-holder {
   position: relative;
   cursor: pointer;
-  grid-row: 1 / -1;
-  grid-column: 1;
+  height: 100%;
 }
 
 .item-holder .item {
@@ -279,7 +297,10 @@ top: 0;
 bottom: 0;
 left: 0;
 right: 0;
+z-index: 10;
 }
+
+
 
 .item-holder .overlay-background {
   position: absolute;
@@ -335,10 +356,19 @@ transition: .2s all;
 
 .item-holder img{
 width: 100%;
+  object-fit: cover;
+  height: 100%;
+  filter: gray;
+  filter: grayscale(100%);
 }
 
 .item-holder:hover .overlay-background {
- opacity: .95;
+ opacity: .65;
+}
+
+.item-holder:hover img{
+  filter: initial;
+  filter: initial;
 }
 
 .item-holder:hover .inner-overlay h3 {
@@ -362,6 +392,11 @@ transform: translateY(0);
   justify-content: center;
   width: calc(100% - 145px);
   margin: 0 auto;
+}
+
+.bold {
+  color: #000;
+  font-weight: bold;
 }
 
 </style>

@@ -4,17 +4,17 @@
       <h1>Nachojauregui</h1>
     </div>
     <div class="main-navbar" id="nav">
-      <router-link to="/">Home</router-link>
-      <router-link to="/about">About</router-link>
+      <router-link to="/">{{$t('nav1')}}</router-link>
+      <router-link to="/about">{{$t('nav2')}}</router-link>
     </div>
     <router-view/>
     <footer>
       <ul class="main-social">
-          <router-link to="/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA7UlEQVRIie2UURWCQBBFbwQiEIEINNAINNAGEoEGEsEG0gAaSANpgB+AZ1lndkc5/nHPmb83b2eHt8DORjLgACQBTQKcgCtwmXuipMAdGOdqFV0OPB3dUnlsaqnpbNSNQKOZF4Gmm6ftFd1Sonmo4eFo83lK7ZBBOqAGOqZVdNaplEP82wLrpByVA6SENIKuUIZZMRgaE0EzEI71m1porjxNKWhKiznIa3LfQ8pn4nrr9CBf331EUhBy3ySGZNLOFVufiVK5hV8dX6zGJTOYm1Oj0UfMTX/PEOU/zRf8j92wcS0+CVNKKn6I4k6QF9gfqpIgLj5tAAAAAElFTkSuQmCC"/></router-link>
-          <router-link to="/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA3klEQVRIie2U2w2DMAxFzwiMwggZoSMwQjcoG5QN6g3oJnQDsgFsQH8cKULBhNcflq6E7Pge5yHgjp3hgA/QA9OKel3rcs2rDNMlVTmT7zUPMnciG81GoATqKCcWwBtmAjxVYZBO+x7Rut4CpIx/OuU8Sq11wDDr2QQogQJ4q9Gg34XWUj3ZANF8k6g1WpMjgFrzY6IWzrq+CuDPAIhhEuDfI4BwyQHiVcH88CWHs156pvPnuQrwCw0T0AIvVWus8xZAjMZciQVwJwCcBYCLf9fxTgT7TuIzl5zJ70jGH6oXAMkBg7n+AAAAAElFTkSuQmCC"/></router-link>
-          <router-link to="/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAk0lEQVRIie2UwQ2AIBAEpwRLsgQ7xY6kA+lAP5gQPA5OTPTBJvcweDu7n4OhP2kGNuDonC163eRfME8hN12Pa4dxulsEACxAMBiHuJP7iIApfk+NbdZspwrYkzRamyD8t7cArnFKmzy1E/argFIbLbUZILXRUj8GpG201F0A6wyAHWA5DbXxEmDmnYvqKZzroW90AjiSFbnLofZbAAAAAElFTkSuQmCC"/></router-link>
+          <a target="_blank" href="https://vimeo.com/nachojauregui"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA7UlEQVRIie2UURWCQBBFbwQiEIEINNAINNAGEoEGEsEG0gAaSANpgB+AZ1lndkc5/nHPmb83b2eHt8DORjLgACQBTQKcgCtwmXuipMAdGOdqFV0OPB3dUnlsaqnpbNSNQKOZF4Gmm6ftFd1Sonmo4eFo83lK7ZBBOqAGOqZVdNaplEP82wLrpByVA6SENIKuUIZZMRgaE0EzEI71m1porjxNKWhKiznIa3LfQ8pn4nrr9CBf331EUhBy3ySGZNLOFVufiVK5hV8dX6zGJTOYm1Oj0UfMTX/PEOU/zRf8j92wcS0+CVNKKn6I4k6QF9gfqpIgLj5tAAAAAElFTkSuQmCC"/></a>
+          <a target="_blank" href="https://www.instagram.com/naajau/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA3klEQVRIie2U2w2DMAxFzwiMwggZoSMwQjcoG5QN6g3oJnQDsgFsQH8cKULBhNcflq6E7Pge5yHgjp3hgA/QA9OKel3rcs2rDNMlVTmT7zUPMnciG81GoATqKCcWwBtmAjxVYZBO+x7Rut4CpIx/OuU8Sq11wDDr2QQogQJ4q9Gg34XWUj3ZANF8k6g1WpMjgFrzY6IWzrq+CuDPAIhhEuDfI4BwyQHiVcH88CWHs156pvPnuQrwCw0T0AIvVWus8xZAjMZciQVwJwCcBYCLf9fxTgT7TuIzl5zJ70jGH6oXAMkBg7n+AAAAAElFTkSuQmCC"/></a>
+          <a href="mailto:hola@nachojauregui.com"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAk0lEQVRIie2UwQ2AIBAEpwRLsgQ7xY6kA+lAP5gQPA5OTPTBJvcweDu7n4OhP2kGNuDonC163eRfME8hN12Pa4dxulsEACxAMBiHuJP7iIApfk+NbdZspwrYkzRamyD8t7cArnFKmzy1E/argFIbLbUZILXRUj8GpG201F0A6wyAHWA5DbXxEmDmnYvqKZzroW90AjiSFbnLofZbAAAAAElFTkSuQmCC"/></a>
       </ul>
-      <p>{{$t('footer')}}</p>
+      <p v-html="$t('footer_html')"></p>
     </footer>
     
   </div>
@@ -58,9 +58,9 @@ margin: auto;
 
 
 .main-navbar a {
-color: #333;
+color: #000;
 text-transform: uppercase;
-font-weight: 500;
+font-weight: bold;
 font-size: 14px;
 line-height: 13px;
 letter-spacing: 3px;
