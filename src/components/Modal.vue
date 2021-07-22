@@ -32,10 +32,10 @@
             <iframe :src="video"  frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
           </div>
           <ul class="video-detail">
-            <li><b>CARGO:</b> {{cargo}}</li>
-            <li v-if="productora"><b>PRODUCTORA:</b> {{productora}}</li>
-            <li v-if="agenciaURL || agencia"><b>AGENCIA:</b> <a v-if="agenciaURL" target="_blanck" :href="agenciaURL">{{agencia}}</a><span v-else>{{agencia}}</span> </li>
-            <li v-if="cliente"><b>CLIENTE:</b> {{cliente}}</li>
+            <li><b>{{$t('cargo')}}:</b> {{cargo}}</li>
+            <li v-if="productora"><b>{{$t('productora')}}:</b> {{productora}}</li>
+            <li v-if="agenciaURL || agencia"><b>{{$t('agencia')}}:</b> <a v-if="agenciaURL" target="_blanck" :href="agenciaURL">{{agencia}}</a><span v-else>{{agencia}}</span> </li>
+            <li v-if="cliente"><b>{{$t('cliente')}}:</b> {{cliente}}</li>
           </ul>
           <p v-html="text"></p>
         </div>
@@ -69,7 +69,7 @@
    methods: {
       cerrarModal() {
         this.$emit('cerrarModal', {isClose: false, videoURL: ''} );
-      }
+      },
      
     }
   };

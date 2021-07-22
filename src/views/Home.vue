@@ -82,105 +82,105 @@ export default {
           agenciaURL: ''
         },
         items: [
-        { title: "OLIVELEAKS",
-          smalltitle: "TASTE THE TRUTH",
+        { title: this.$t('modal_title1'),
+          smalltitle: this.$t('modal_subtitle1'),
           img: "https://nachojauregui.com/new/img/OLIVELEAKS.png", 
           video: "https://www.youtube.com/embed/987RSqK46k0",
-          cargo: "DIRECCIÓN DE FOTOGRAFÍA, EDITOR, COLORISTA",
+          cargo: this.$t('modal_cargo1'),
           productora: "LA CAÑA BROTHERS",
           agencia: "DDB ESPAÑA",
-          cliente: "OLIVE OILS FROM SPAIN",
+          cliente: this.$t('modal_cliente1'),
           text: this.$t('modal1_html')
         },
         { 
-          title: "LO QUE DE VERDAD IMPORTA", 
-          smalltitle: "DOCUMENTAL",
+          title: this.$t('modal_title7'), 
+          smalltitle: this.$t('modal_subtitle7'),
           img: "https://nachojauregui.com/new/img/LQDVI.png",
           video: "https://www.dailymotion.com/embed/video/x81a0x4",
-          cargo: "DIRECCIÓN, REALIZACIÓN",
+          cargo: this.$t('modal_cargo7'),
           productora: "LA CAÑA BROTHERS",
-          cliente: "MOVISTAR +",
+          cliente: this.$t('modal_cliente7'),
           text: this.$t('modal7_html')
         },
         { 
-          title: "'IGO NAHI?' SPOT", 
-          smalltitle: "SAGARDOBUS",
+          title: this.$t('modal_title8'), 
+          smalltitle: this.$t('modal_subtitle8'),
           img: "https://nachojauregui.com/new/img/SAGARDOBUS.png",
           video: "https://www.youtube.com/embed/zoIQofbG5JY",
-          cargo: "DIRECCIÓN, REALIZACIÓN, EDICIÓN",
-          cliente: "SAGARDOBUS",
+          cargo: this.$t('modal_cargo8'),
+          cliente: this.$t('modal_cliente8'),
           text: this.$t('modal8_html')
         },
         { 
-          title: "ABANDERADOS DEL ESFUERZO", 
-          smalltitle: "DOCUMENTAL",
+          title: this.$t('modal_title6'), 
+          smalltitle: this.$t('modal_subtitle6'),
           img: "https://nachojauregui.com/new/img/ADE.png",
           video: "https://www.youtube.com/embed/JbVzOcpBnNw",
-          cargo: "REALIZADOR, EDITOR",
+          cargo: this.$t('modal_cargo6'),
           productora: "LA CAÑA BROTHERS",
           agencia: "AFTERSHARE.TV",
           agenciaURL: "https://aftershare.tv/es/",
-          cliente: "FUNDACIÓN TRINIDAD ALFONSO",
+          cliente: this.$t('modal_cliente6'),
           text: this.$t('modal6_html')
         },
         { 
-          title: "#PRIMERO", 
-          smalltitle: "LA SERIE",
+          title: this.$t('modal_title3'), 
+          smalltitle: this.$t('modal_subtitle3'),
           img: "https://nachojauregui.com/new/img/PRIMERO.png",
           video: "https://www.youtube.com/embed/k-PME6zJfaY",
-          cargo: "DIRECCIÓN, REALIZACIÓN",
+          cargo: this.$t('modal_cargo3'),
           productora: "ALBIÑANA FILMS",
           agencia: "MANIFIESTO",
-          cliente: "CEU UNIVERSITIES",
+          cliente: this.$t('modal_cliente3'),
           text: this.$t('modal3_html')
         },
         { 
-          title: "SENDEROS", 
-          smalltitle: "CON PEPE MEDIAVILLA (CORTOMETRAJE)",
+          title: this.$t('modal_title9'), 
+          smalltitle: this.$t('modal_subtitle9'),
           img: "https://nachojauregui.com/new/img/senderos.png",
           video: "https://www.youtube.com/embed/zyo9Nuxl1mQ",
-          cargo: "DIRECTOR, DP y EDITOR",
+          cargo: this.$t('modal_cargo9'),
          text: this.$t('modal9_html')
         },
         
         { 
-          title: "#HANDSFREELIVING", 
-          smalltitle: "EASTPAK",
+          title: this.$t('modal_title10'), 
+          smalltitle: this.$t('modal_subtitle10'),
           img: "https://nachojauregui.com/new/img/MFNY.png",
           video: "https://player.vimeo.com/video/277648030",
-          cargo: "DIRECCIÓN, DP, EDICIÓN",
+          cargo: this.$t('modal_cargo10'),
           productora: "LA CAÑA BROTHERS",
           agencia: "VF CORPORATION INTERNATIONAL",
-          cliente: "EASTPAK WORLDWIDE",
+          cliente: this.$t('modal_cliente10'),
            text: this.$t('modal10_html')
         },
         { 
-          title: "'HELMETS'", 
-          smalltitle: "CON MARC MÁRQUEZ",
+          title: this.$t('modal_title2'), 
+          smalltitle: this.$t('modal_subtitle2'),
           img: "https://nachojauregui.com/new/img/HELMETS.png",
           video: "https://www.redbull.com/embed/rrn:content:videos:9fe52f84-c87b-4f4e-bacc-679f0f5b04e1:es-ES",
-          cargo: "EDITOR",
+          cargo: this.$t('modal_cargo2'),
           productora: "LA CAÑA BROTHERS",
-          cliente: "RED BULL ESPAÑA",
+          cliente: this.$t('modal_cliente2'),
           text: this.$t('modal2_html')
         },
         { 
-          title: "#MEJORCONECTADOS", 
-          smalltitle: "BRANDED CONTENT",
+          title: this.$t('modal_title5'), 
+          smalltitle: this.$t('modal_subtitle5'),
           img: "https://nachojauregui.com/new/img/SISHEIDO.png",
           video: "https://www.youtube.com/embed/ad5LxaQ4PNQ",
-          cargo: "REALIZACIÓN, EDICIÓN",
+          cargo: this.$t('modal_cargo5'),
           productora: "LA CAÑA BROTHERS",
-          cliente: "TELEFÓNICA",
+          cliente: this.$t('modal_cliente5'),
           text: this.$t('modal5_html')
         },
         { 
-          title: "LAST LIGHT", 
-          smalltitle: "FURIA IN MOTION",
+          title: this.$t('modal_title4'), 
+          smalltitle: this.$t('modal_subtitle4'),
           img: "https://nachojauregui.com/new/img/FURIA.png",
           video: "https://player.vimeo.com/video/513394340",
-          cargo: "DIRECCIÓN, DP, EDICIÓN",
-          cliente: "FURIA",
+          cargo: this.$t('modal_cargo4'),
+          cliente: this.$t('modal_cliente4'),
           text: this.$t('modal4_html')
         }
       ]
@@ -221,8 +221,13 @@ export default {
 
 .hero-video {
   max-width: 1140px;
-  margin: 45px auto;
+  margin: 45px auto 65px auto;
 }
+ @media (min-width: 800px) {
+   .hero-video {
+        margin: 45px auto;
+      }
+ }
 
 .full-ratio {
   position:relative;
@@ -272,11 +277,13 @@ export default {
   background-color: #f6f6f6;
   width: 100%;
   margin-bottom: 30px;
+  height: 194px;
 }
 @media (min-width: 800px) {
    .portfolio .box {
     background-color: #f6f6f6;
     width: calc(25.65% - 30px);
+    height: auto;
     }
     .portfolio .box:not(:nth-child(4n)) {
     margin-right: 30px;

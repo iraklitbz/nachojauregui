@@ -1,13 +1,17 @@
 <template>
   <div class="about">
+
+    <div class="main-pic">
+     <img src="https://nachojauregui.com/new/img/me.jpg" >
+    </div>
     
-      <p>Soy <b>Nacho Jáuregui</b>, director y editor nacido en Bilbao que actualmente reside en Madrid.</p>
+    <p v-html="$t('about1_html')"></p>
 
-      <p>Estudié <b>Publicidad y Relaciones Públicas</b> en la Universidad del País Vasco, especializándome posteriormente en <b>Edición y Post Producción Digital</b> en la Escuela de Nuevas Tecnologías CICE.</p>
+    <p v-html="$t('about2_html')"></p>
 
-      <p>Desde 2015 llevo trabajando con múltiples marcas para llevar a cabo <b>un único objetivo</b>: proyectar su imagen de la mejor manera posible y con el mejor equipo. Me encantan los entornos colaborativos y el resultado de un buen trabajo conjunto.</p>
+    <p v-html="$t('about3_html')"></p>
 
-      <p>Así que ya sabes, si quieres que comencemos a trabajar juntos, escríbeme un mail a <a href="mailto:hola@nachojauregui.com">hola@nachojauregui.com</a> o ponte en contacto conmigo directamente a través de redes sociales.</p>
+    <p v-html="$t('about4_html')"></p>
   </div>
 </template>
 
@@ -23,6 +27,14 @@
 </script>
 
 <style>
+.main-pic {
+  max-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+.main-pic img {
+  width: 100%;
+}
 .about {
   margin-bottom: 45px;
 }
