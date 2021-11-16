@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <p v-html="$t('home1_html')"></p>
+    <!-- <p v-html="$t('home1_html')"></p> -->
     <div class="hero-video">
        <div class="full-ratio">
            <div class="loading">
