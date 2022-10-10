@@ -40,7 +40,21 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    '~/modules/svg-module'
+    '~/modules/svg-module',
+    '@nuxtjs/axios',
+    ['nuxt-mail', {
+        message: {
+          to: 'iraklitbz@gmail.com',
+        },
+        smtp: {
+          host: 'smtp.mailtrap.io',
+          port: 2525,
+          auth: {
+            user: 'username',
+            pass: 'password'
+          },
+        }
+      }]
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

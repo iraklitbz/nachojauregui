@@ -4,8 +4,8 @@
     <div class="layout">
       <div class="content">
         <div class="flex flex-col md:flex-row">
-          <div class="text-block text-white w-full md:w-3/6 relative order-2 md:order-1">
-            <div class="md:sticky top-0 left-0 md:pr-14 md:pt-10">
+          <div class="text-block text-white w-full md:w-7/12 order-2 md:order-1">
+            <div class="md:pr-14 md:pt-10">
               <p class="text-lg mb-4">Nacho Jáuregui is an editor and director from Bilbao based in Madrid, who tells compelling & emotional stories through branded documentaries.</p>
               <p class="text-lg">He studied Advertising & Public Relations at the University of the Basque Country and specialized through a Master Degree in Editing & Post Production at CICE: the School of New Technology.</p>
               <ul class="mt-14">
@@ -13,16 +13,19 @@
                 <li>Oliveleaks (DP, Editor)</li>
                 <li>Branded Documentary</li>
                 <li>Bronze - Branded & Integrated - Best Awards Marketing 2019</li>
+                <li>El Despertar del Gigante (Director, DP, Editor)</li>
+                <li>Experimental Short Film</li>
+                <li>Through My Eyes Film Festival 2019 (LA, USA) - Official Selection</li>
               </ul>
             </div>
           </div>
-          <div class="img-block w-full md:w-3/6 md:pt-10 order-1 md:order-2 mb-10 md:mb-0">
+          <div class="img-block w-full md:w-5/12 md:pt-10 order-1 md:order-2 mb-10 md:mb-0">
             <img :src="require(`~/assets/images/PHOTO_ABOUT.jpg`)">
           </div>
         </div>
         <div class="mt-32">
-          <h2 class="text-white text-3xl text-center font-bold">Brands & companies I've worked with</h2>
-          <div class="grid grid-cols-2 gap-10 mt-10 lg:grid-cols-5 lg:mt-14">
+          <h2 class="text-white text-3xl text-center font-bold lg:mb-14">Brands & Companies I've worked</h2>
+          <div class="grid grid-cols-2 gap-10 mt-10 lg:grid-cols-5 lg:mt-16">
             <figure>
               <img :src="require(`~/assets/images/brand/alh_bw.png`)">
             </figure>

@@ -3,16 +3,16 @@
         class="main-header z-50"
         :class="[pageWork ? 'sm:absolute' : 'sm:relative', isActive ? 'active': '']"
     >
-        <div class="header-inner flex items-center justify-between py-10 lg:py-0">
+        <div class="header-inner flex items-center justify-between py-7 lg:py-0">
             <h1
                 class="text-2xl sm:text-4xl font-bold"
                 :class="pageWork ? 'text-white' : 'text-yellow'"
             >
                 <nuxt-link
                     to="/"
-                    class="uppercase"
+                    class="uppercase flex flex-col lg:flex-row"
                     :class="pageWork ? 'text-white' : 'text-yellow'"
-                >Nacho jauregui <span class="lowercase">editor & director</span></nuxt-link>
+                >Nacho jauregui <span class="lowercase lg:ml-5">editor & director</span></nuxt-link>
             </h1>
             <nav class="main-navbar">
                 <ul class="navbar text-white font-bold text-sm hidden lg:flex">
@@ -47,9 +47,9 @@
             class="responsive-menu flex"
             :class="isActive ? 'block lg:hidden': 'hidden lg:hidden'"
         >
-            <nav class="flex justify-center items-center w-full">
+            <nav class="flex justify-center pt-14 lg:pt-0 w-full">
                 <div>
-                    <ul class="text-yellow text-center font-bold text-5xl">
+                    <ul class="text-yellow text-center font-bold text-3xl">
                         <li>
                             <nuxt-link to="/">work</nuxt-link>
                         </li>

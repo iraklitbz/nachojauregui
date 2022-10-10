@@ -6,19 +6,17 @@ export default {
             subtitle: "Director, Editor, DP",
             shortlist: "<ul><li>Short Documentary, 2022</li><li>2 minutes</li></ul>",
             description: "'El Corte Flamenco' talks about a passionate hairdresser that owns a barber shop in Madrid, where he develops his art at a very particular rhythm: the flamenco.",
-            folder: "aba",
-            slug: "nike-s-big-bet",
-            imgUrl: "PLANTILLA_ABA.jpg",
+            folder: "ecf",
+            slug: "el-corte-flamenco",
+            imgUrl: "PLANTILLA_ECF.jpg",
             videoUrl: "https://vimeo.com/577173713",
-            backgroundImage: "HEADER_ABANDERADOS.jpg",
+            backgroundImage: "HEADER_ECF.jpg",
             gallery: [
-                'ANA_3.jpg',
-                'HEC_3.jpg',
-                'JOR_3.jpg',
-                'LIDON.jpg',
-                'NES4.jpg',
-                'RA7.jpg',
-                'VOLEY.jpg'
+                'ECF1.png',
+                'ECF2.png',
+                'ECF3.png',
+                'ECF4.png',
+                'ECF5.png'
             ]
         },
         {
@@ -27,21 +25,28 @@ export default {
             subtitle: "DP, Editor",
             shortlist: "<ul><li>Short Documentary, 2022</li><li>YouTube</li><li>33 minutes,YouTube</li><li>Director: Rubén Díez</li></ul>",
             description: "The Ethiopian tribe Surma is well know for being inaccessible, violent and ruthless. On August 2022, we had the opportunity to live for a whole week with them, discover their culture and go beyond the rumors.",
-            folder: "confi",
-            slug: "clear-sky",
-            imgUrl: "PLANTILLA_CONFI.jpg",
+            folder: "surma",
+            slug: "surma-ghost-shadows",
+            imgUrl: "PLANTILLA_SURMA.jpg",
             videoUrl: "https://vimeo.com/577173713",
-            backgroundImage: "HEADER_CONFI.jpg",
+            backgroundImage: "HEADER_SURMA.jpg",
             gallery: [
-                'EC1.jpg',
-                'EC2.jpg',
-                'EC3.jpg',
-                'EC4.jpg',
-                'EC5.jpg',
-                'EC6.jpg',
-                'EC7.jpg',
-                'EC8.jpg',
-                'EC9.jpg'
+                'S_1.jpg',
+                'S_2.jpg',
+                'S_3.jpg',
+                'S_4.jpg',
+                'S_5.jpg',
+                'S_6.jpg',
+                'S_7.jpg',
+                'S_8.jpg',
+                'S_9.jpg',
+                'S_10.jpg',
+                'S_11.jpg',
+                'S_12.jpg',
+                'S_13.jpg',
+                'S_14.jpg',
+                'S_15.jpg',
+                'S_16.jpg'
             ]
         },
         {
@@ -75,17 +80,21 @@ export default {
             subtitle: "DP, Editor",
             shortlist: "<ul><li>Branded Documentary, 2018</li><li>DDB Spain</li><li>54 minutes</li><li>Director: Juanjo López</li></ul>",
             description: "Filmed as a journalism documentary, this mockumentary for DDB SPAIN & OLIVE OILS FROM SPAIN, along with 5 other spots, report the fact that the United States doesn’t yet know the source of the world’s best Extra Virgin Olive Oil. Awarded with INTEGRATED Bronze Prize at the BEST AWARDS 2019.",
-            folder: "ecf",
+            folder: "oliveleaks",
             slug: "oliveleaks",
-            imgUrl: "PLANTILLA_ECF.jpg",
+            imgUrl: "PLANTILLA_OLIVELEAKS.jpg",
             videoUrl: "https://vimeo.com/577173713",
-            backgroundImage: "HEADER_ECF.jpg",
+            backgroundImage: "HEADER_OLIVELEAKS.jpg",
             gallery: [
-                'ECF1.jpg',
-                'ECF2.jpg',
-                'ECF3.jpg',
-                'ECF4.jpg',
-                'ECF5.jpg'
+                'OL1.jpg',
+                'OL2.jpg',
+                'OL3.jpg',
+                'OL4.jpg',
+                'OL5.jpg',
+                'OL6.jpg',
+                'OL7.jpg',
+                'OL8.jpg',
+                'OL9.jpg'
             ]
         },
         {
@@ -94,11 +103,22 @@ export default {
             subtitle: "Director",
             shortlist: "<ul><li>Branded Documentary, 2021</li><li>Secuoya Nexus</li><li>9 minutes</li></ul>",
             description: "El Confidencial has been one of most read digital newspaper from Spain for almost 20 years. To celebrate it, this documentary shows a full day schedule from the offices and their workers.",
-            folder: "helmets",
+            folder: "confi",
             slug: "el-confidencial",
-            imgUrl: "PLANTILLA_HELMETS.jpg",
+            imgUrl: "PLANTILLA_CONFI.jpg",
             videoUrl: "https://vimeo.com/577173713",
-            backgroundImage: "HEADER_HELMETS.jpg"
+            backgroundImage: "HEADER_CONFI.jpg",
+            gallery: [
+                'EC1.jpg',
+                'EC2.jpg',
+                'EC3.jpg',
+                'EC4.jpg',
+                'EC5.jpg',
+                'EC6.jpg',
+                'EC7.jpg',
+                'EC8.jpg',
+                'EC9.jpg'
+            ]
         },
         {
             id: 6,
@@ -118,11 +138,17 @@ export default {
             subtitle: "Assistant Editor",
             shortlist: "<ul><li>Branded Documentary, 2020</li><li>Red Bull Media House</li><li>17 minutes</li></ul>",
             description: "A rider’s helmet is how they express their identity when they’re on their bike. Here, Marc Márquez talks us through the meaning behind each of the iconic designs he has worn over the past five seasons.",
-            folder: "sb",
-            slug: "helmetsy",
-            imgUrl: "PLANTILLA_SB.jpg",
+            folder: "helmets",
+            slug: "helmets",
+            imgUrl: "PLANTILLA_HELMETS.jpg",
             videoUrl: "https://vimeo.com/577173713",
-            backgroundImage: "HEADER_SURMA.jpg"
+            backgroundImage: "HEADER_HELMETS.jpg",
+            gallery: [
+                'HEL1.jpg',
+                'HEL2.jpg',
+                'HEL3.jpg',
+                'HEL4.jpg'
+            ]
         },
         {
             id: 8,

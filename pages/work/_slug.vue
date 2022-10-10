@@ -8,7 +8,7 @@
       :style="'background-image: url(' + require(`~/assets/images/${entryData.folder}/${entryData.backgroundImage}`) + ');'"
     >
       <div class="content w-full">
-        <h1 class="text-white text-5xl font-bold">
+        <h1 class="text-white text-3xl lg:text-5xl font-bold">
           {{ entryData.title }}
         </h1>
       </div>
@@ -30,6 +30,27 @@
         </div>
       </div>
     </div>
+    <div class="content-wrapper">
+      <div
+        class="flex items-center nav-footer"
+        :class="currentPosition > 0 ? 'justify-between' : 'justify-end'"
+      >
+        <nuxt-link
+          v-if="currentPosition > 0"
+          class="text-white flex items-center font-bold text-2xl"
+          :to="'/work/' + dataSource[currentPosition - 1].slug"
+          >
+          <load-svg class="text-white w-8 mt-1" name="chevronLeft" /> {{ dataSource[currentPosition - 1].title }}
+        </nuxt-link>
+        <nuxt-link
+          v-if="currentPosition < (dataSource.length - 1)"
+          class="text-white flex items-center text-right font-bold text-2xl"
+          :to="'/work/' + dataSource[currentPosition + 1].slug"
+          >{{ dataSource[currentPosition + 1].title }}
+          <load-svg class="text-white w-8 mt-1" name="chevronRight" />
+        </nuxt-link>
+      </div>
+    </div>
     <Footer />
   </div>
 </template>
@@ -43,12 +64,18 @@ export default {
         slug: this.$route.params.slug,
         dataSource: [],
         entryData: {},
-        page404: false
+        page404: false,
+        currentPosition: 0,
+        previData: {},
+        nextData: {}
     }
   },
   created () {
     this.dataSource = data.data
-    const entrada = this.dataSource.filter((item) => {
+    const entrada = this.dataSource.filter((item, i) => {
+        if(item.slug === this.slug) {
+          this.currentPosition = i
+        }
         return item.slug === this.slug
     })
     const existSlug = entrada.map(element => element.slug)
