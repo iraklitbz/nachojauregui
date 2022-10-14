@@ -10,12 +10,12 @@
               <p class="text-lg">He studied Advertising & Public Relations at the University of the Basque Country and specialized through a Master Degree in Editing & Post Production at CICE: the School of New Technology.</p>
               <ul class="mt-14">
                 <li class="mb-4 font-bold">SELECTED WORK:</li>
-                <li>Oliveleaks (DP, Editor)</li>
+                <li><i>Oliveleaks</i> (DP, Editor)</li>
                 <li>Branded Documentary</li>
-                <li>Bronze - Branded & Integrated - Best Awards Marketing 2019</li>
-                <li>El Despertar del Gigante (Director, DP, Editor)</li>
+                <li><b>Bronze - Branded & Integrated - Best Awards Marketing 2019</b></li>
+                <li class="mt-5"><i>El Despertar del Gigante</i> (Director, DP, Editor)</li>
                 <li>Experimental Short Film</li>
-                <li>Through My Eyes Film Festival 2019 (LA, USA) - Official Selection</li>
+                <li><b>Through My Eyes Film Festival 2019</b> (LA, USA) - Official Selection</li>
               </ul>
             </div>
           </div>
@@ -24,7 +24,7 @@
           </div>
         </div>
         <div class="mt-32">
-          <h2 class="text-white text-3xl text-center font-bold lg:mb-14">Brands & Companies I've worked</h2>
+          <h2 class="text-white text-3xl text-center font-bold lg:mb-14 uppercase">Brands & Companies I've worked with</h2>
           <div class="grid grid-cols-2 gap-10 mt-10 lg:grid-cols-5 lg:mt-16">
             <figure>
               <img :src="require(`~/assets/images/brand/alh_bw.png`)">

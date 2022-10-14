@@ -9,12 +9,12 @@
               <h2 class="text-6xl mb-4 font-bold">Let's Start from Scratch.</h2>
               <ul class="mt-14">
                 <li>hola@nachojauregui.com </li>
-                <li>madrid, spain</li>
+                <li>Madrid, Spain - Available Worldwide.</li>
               </ul>
             </div>
           </div>
           <div class="img-block w-full lg:w-3/6 md:pt-10">
-            <form>
+            <form action="action.php" method="post">
               <fieldset class="mb-7">
                 <legend class="text-white text-base mb-2 font-bold"> Name <span class="required" aria-hidden="true">*</span></legend>
                 <div class="flex flex-col md:flex-row gap-5">
@@ -41,7 +41,7 @@
                 <textarea class="h-28 rounded-sm pl-2" v-model="message" aria-required="true" required></textarea>
               </fieldset>
               <div data-animation-role="button" class="mt-10 w-full md:w-24 text-center border-2 border-solid border-l-white">
-                <input @click="sendForm" class="cursor-pointer text-white font-bold h-16 w-full text-center hover:bg-white hover:text-black" type="submit" value="Send">
+                <a :href="'mailto:hola@nachojauregui.com?body='+ name + ' ' +  lastname + ' ' + 'te manda el siguiente mensaje:' + ' ' + message" class="cursor-pointer flex items-center justify-center text-white font-bold h-16 w-full text-center hover:bg-white hover:text-black">SEND</a>
               </div>
             </form>
 
@@ -63,15 +63,6 @@ export default {
       email: '',
       message: '',
     };
-  },
-  methods: {
-    sendForm() {
-      this.$mail.send({
-        from: this.email,
-        subject: 'Contacto desde la web',
-        text: `Name: ${this.name} ${this.lastname} le envia el siguiente mensaje desde la web: ${this.message}`,
-      })
-    },
   }
 }
 </script>

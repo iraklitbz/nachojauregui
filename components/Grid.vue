@@ -13,7 +13,7 @@
             </div>
             <div class="portfolio-overlay"></div>
             <div class="portfolio-text">
-                <h2 class="text-white text-4xl font-bold">{{ data.title }}</h2>
+                <h2 class="text-white text-xl lg:text-4xl font-bold">{{ data.title }}</h2>
             </div>
         </nuxt-link>
     </div>

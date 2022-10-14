@@ -14,13 +14,17 @@
       </div>
     </div>
     <div class="content-wrapper">
-      <div class="content flex">
-        <div>
+      <div class="content lg:flex">
+        <div class="w-full lg:w-5/12 mb-10 lg:mb-0 lg:pr-10">
           <h2 class="text-white text-2xl font-bold">{{ entryData.subtitle }}</h2>
           <div class="mt-2 short-list text-white" v-html="entryData.shortlist"></div>
           <p class="mt-7 text-white text-lg">{{ entryData.description }}</p>
         </div>
-        <div></div>
+        <div class="w-full lg:w-7/12">
+          <video-player
+            :src="entryData.videoUrl"
+          />
+        </div>
       </div>
     </div>
     <div class="content-wrapper">
@@ -57,8 +61,13 @@
 
 <script>
 import data from '../../static/data.js'
+import VideoPlayer from 'nuxt-video-player'
+require('nuxt-video-player/src/assets/css/main.css')
 export default {
   name: 'WorkPage',
+  components: {
+    VideoPlayer
+  },
   data () {
     return {
         slug: this.$route.params.slug,

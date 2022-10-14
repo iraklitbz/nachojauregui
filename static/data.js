@@ -9,7 +9,7 @@ export default {
             folder: "ecf",
             slug: "el-corte-flamenco",
             imgUrl: "PLANTILLA_ECF.jpg",
-            videoUrl: "https://vimeo.com/577173713",
+            videoUrl: "https://vimeo.com/694163562",
             backgroundImage: "HEADER_ECF.jpg",
             gallery: [
                 'ECF1.png',
@@ -21,14 +21,14 @@ export default {
         },
         {
             id: 2,
-            title: "Surma: Ghost Shadows (Coming Soon)",
+            title: "Surma: Ghost Shadows",
             subtitle: "DP, Editor",
             shortlist: "<ul><li>Short Documentary, 2022</li><li>YouTube</li><li>33 minutes,YouTube</li><li>Director: Rubén Díez</li></ul>",
             description: "The Ethiopian tribe Surma is well know for being inaccessible, violent and ruthless. On August 2022, we had the opportunity to live for a whole week with them, discover their culture and go beyond the rumors.",
             folder: "surma",
             slug: "surma-ghost-shadows",
             imgUrl: "PLANTILLA_SURMA.jpg",
-            videoUrl: "https://vimeo.com/577173713",
+            videoUrl: "https://www.youtube.com/watch?v=lo2VPaMnbS4",
             backgroundImage: "HEADER_SURMA.jpg",
             gallery: [
                 'S_1.jpg',
@@ -55,23 +55,19 @@ export default {
             subtitle: "Editor, Producer",
             shortlist: "<ul><li>Documentary, 2020</li><li>Amazon Prime Video, After</li><li>54 minutes</li><li>Director: Juanjo López</li></ul>",
             description: "Seven athletes from FER were dreaming about the Olympic Games from 2020 until COVID-19 arrived unexpectedly. This documentary shows their training before, during and after the world pandemic. And how their perseverance and courage play a fundamental role in their lives.",
-            folder: "eas",
+            folder: "cof",
             slug: "champions-of-effort",
-            imgUrl: "PLANTILLA_EAS.jpg",
-            videoUrl: "https://vimeo.com/577173713",
-            backgroundImage: "HEADER_EASTPAK.jpg",
+            imgUrl: "PLANTILLA_ABA.jpg",
+            videoUrl: "https://www.youtube.com/watch?v=JbVzOcpBnNw",
+            backgroundImage: "HEADER_ABANDERADOS.jpg",
             gallery: [
-                'EA11.jpg',
-                'EA12.jpg',
-                'EA14.jpg',
-                'EA20.jpg',
-                'EA39.jpg',
-                'EA40.jpg',
-                'EA41.jpg',
-                'EA42.jpg',
-                'EA47.jpg',
-                'EA48.jpg',
-                'EA49.jpg'
+                'ANA_3.jpg',
+                'HEC_3.jpg',
+                'JOR_3.jpg',
+                'LIDON.jpg',
+                'NES4.jpg',
+                'RA7.jpg',
+                'VOLEY.jpg'
             ]
         },
         {
@@ -83,7 +79,7 @@ export default {
             folder: "oliveleaks",
             slug: "oliveleaks",
             imgUrl: "PLANTILLA_OLIVELEAKS.jpg",
-            videoUrl: "https://vimeo.com/577173713",
+            videoUrl: "https://player.vimeo.com/video/759201089?h=3cc661877f",
             backgroundImage: "HEADER_OLIVELEAKS.jpg",
             gallery: [
                 'OL1.jpg',
@@ -106,7 +102,7 @@ export default {
             folder: "confi",
             slug: "el-confidencial",
             imgUrl: "PLANTILLA_CONFI.jpg",
-            videoUrl: "https://vimeo.com/577173713",
+            videoUrl: "https://player.vimeo.com/video/755207005?h=7355b9f4e8",
             backgroundImage: "HEADER_CONFI.jpg",
             gallery: [
                 'EC1.jpg',
@@ -126,11 +122,24 @@ export default {
             subtitle: "Director, Editor, DP",
             shortlist: "<ul><li>Branded Ad, 2019</li><li>VF Corporation International, Eastpak Worldwide</li></ul>",
             description: "A group of content creators represent the fast lifestyle from the Big Apple.",
-            folder: "oliveleaks",
+            folder: "eastpak",
             slug: "eastpak",
-            imgUrl: "PLANTILLA_OLIVELEAKS.jpg",
-            videoUrl: "https://vimeo.com/577173713",
-            backgroundImage: "HEADER_OLIVELEAKS.jpg"
+            imgUrl: "PLANTILLA_EAS.jpg",
+            videoUrl: "https://vimeo.com/277648030",
+            backgroundImage: "HEADER_EASTPAK.jpg",
+            gallery: [
+                'EA11.jpg',
+                'EA12.jpg',
+                'EA14.jpg',
+                'EA20.jpg',
+                'EA39.jpg',
+                'EA40.jpg',
+                'EA41.jpg',
+                'EA42.jpg',
+                'EA47.jpg',
+                'EA48.jpg',
+                'EA49.jpg'
+            ]
         },
         {
             id: 7,
@@ -141,7 +150,7 @@ export default {
             folder: "helmets",
             slug: "helmets",
             imgUrl: "PLANTILLA_HELMETS.jpg",
-            videoUrl: "https://vimeo.com/577173713",
+            videoUrl: "https://www.youtube.com/watch?v=omKYP1x8CHI",
             backgroundImage: "HEADER_HELMETS.jpg",
             gallery: [
                 'HEL1.jpg',
@@ -156,11 +165,27 @@ export default {
             subtitle: "Director, Editor, DP",
             shortlist: "<ul><li>Branded Ad, 2019</li><li>2 minutes</li></ul>",
             description: "The spot from 2019’s Season of Sagardobus represents what we are, what we have been and what we will be. The narration is inspired by Eva Perón‘s last speech about her love for her native lands.",
-            folder: "sen",
+            folder: "sagardobus",
             slug: "sagardobus",
-            imgUrl: "PLANTILLA_SEN.jpg",
-            videoUrl: "https://vimeo.com/577173713",
-            backgroundImage: "HEADER_SENDEROS.jpg"
+            imgUrl: "PLANTILLA_SB.jpg",
+            videoUrl: "https://www.youtube.com/watch?v=zoIQofbG5JY",
+            backgroundImage: "SB_HEADER.jpg",
+            gallery: [
+                'SAG1.jpg',
+                'SAG2.jpg',
+                'SAG3.jpg',
+                'SAG4.jpg',
+                'SAG5.jpg',
+                'SAG6.jpg',
+                'SAG7.jpg',
+                'SAG8.jpg',
+                'SAG9.jpg',
+                'SAG10.jpg',
+                'SAG11.jpg',
+                'SAG12.jpg',
+                'SAG13.jpg',
+                'SAG14.jpg'
+            ]
         },
         {
             id: 9,
@@ -168,11 +193,23 @@ export default {
             subtitle: "Director, Editor, DP",
             shortlist: "<ul><li>Short Film, 2018</li><li>5 minutes</li></ul>",
             description: "SENDEROS is a tribute and farewell to one of the best Spanish dubbing actors, Pepe Mediavilla. This short film mixes the spectacular landscapes from Jordan and Pepe’s voice, with a fantastic soundtrack from Philip Cuccias, Hammock & Chris Coleman.",
-            folder: "surma",
+            folder: "senderos",
             slug: "senderos",
-            imgUrl: "PLANTILLA_SURMA.jpg",
-            videoUrl: "https://vimeo.com/577173713",
-            backgroundImage: "HEADER_SURMA.jpg"
+            imgUrl: "PLANTILLA_SEN.jpg",
+            videoUrl: "https://www.youtube.com/watch?v=zyo9Nuxl1mQ",
+            backgroundImage: "HEADER_SENDEROS.jpg",
+            gallery: [
+                'SEN1.jpg',
+                'SEN2.jpg',
+                'SEN3.jpg',
+                'SEN4.jpg',
+                'SEN5.jpg',
+                'SEN6.jpg',
+                'SEN7.jpg',
+                'SEN8.jpg',
+                'SEN9.jpg',
+                'SEN10.jpg'
+            ]
         }
     ]
 }
